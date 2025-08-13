@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         //Operadores de Atribuição e Lógicos:
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Quanl a sua idade");
+        System.out.println("Qual a sua idade?");
         int age = scanner.nextInt();
         System.out.println("Você é Emancipado(a)?");
         boolean isEmancipated = scanner.nextBoolean();
