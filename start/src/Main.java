@@ -21,7 +21,7 @@ public class Main {
         int value2 = scanner.nextInt();
         System.out.printf("A potência de %d é igual a %.2f\n", value2, Math.pow(value2, 2));*/
 
-        //Condicionais
+        //Estruturas Condicionais;
         //"Elvis Operator" / Operador ternário:
         /*System.out.println("Qual o seu nome?");
         String name = scanner.nextLine();
@@ -34,7 +34,6 @@ public class Main {
         String message = canDrive ?
                 "Você pode dirigir, " + name + "\n" :
                 "Você não pode dirigir, " + name + "\n";
-
         System.out.println(message);*/
 
         //Switch Case:
@@ -55,6 +54,17 @@ public class Main {
             default -> "Opção Inválida";
         };
         System.out.println(message);*/
+
+        //Estruturas de Repetição;
+        //for:
+        /*for (int i = 0; i <= 100; i++){
+           if (i % 2 == 0) {
+               //imprime apenas numeros ímpares;
+               continue;
+               //continue = ignora os comandos quando entrar neste if e prossegue;
+           }
+            System.out.println(i);
+        }*/
 
         //
     }
